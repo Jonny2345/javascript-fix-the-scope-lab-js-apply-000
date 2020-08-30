@@ -18,26 +18,3 @@ function add2(n) {
   return n + two
 }
 
-var funkyFunction = function() {
-  return function() {
-    return "FUNKY!"
-  }
-}
-describe('theFunk', function() {
-    it('is "FUNKY!"', function() {
-      expect(window.theFunk).toEqual('FUNKY!')
-    })
-  })
-
-  var funkyFunction = function() {
-    return function(){
-      return "FUNKY!"
-    }
-  }
-
-  var theFunk = funkyFunction()()
-
-
-
-
-
